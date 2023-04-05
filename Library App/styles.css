@@ -1,0 +1,32 @@
+body {
+    background-color: #F6F1F1;
+}
+
+#bookArea {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #F6F1F1;
+}
+
+.bookCard {
+    width: 20%;
+    min-width: 200px;
+    margin-right: auto;
+    margin-left: 2%;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: #146C94;
+    margin-top: 15px;
+    padding-left: 5px;
+}
+
+.removeBtn {
+    width: 50%;
+    background-color: #19A7CE;
+    border: 1px solid #F6F1F1;
+    border-radius: 3px;
+    margin-left: 25%;
+    margin-bottom: 5px;
+}
+
+
